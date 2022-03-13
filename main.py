@@ -4,7 +4,7 @@ def isRound(i):
 
 def go(i1) -> int: 
     v:int = 0
-    for i in range(1,10001):
+    for i in range(1,1000001):
         if isRound(int(i1[0]) / i) and isRound(int(i1[1]) / i):
             v = i
             pass
